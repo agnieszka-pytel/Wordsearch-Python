@@ -1,0 +1,116 @@
+body{
+	font-family: Inder, Helvetica, sans-serif;
+	font-size:100%;
+	width:100%;
+	padding-bottom: 30px;
+}
+
+h1, h2{
+	font-family: Signika, Helvetica, sans-serif;
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+	font-size:70%;
+}
+nav .navbar-fixed-bottom p{
+	font-size: 80%;
+}
+
+input .button{
+	width:100%;
+}
+
+p{
+	text-align: center;
+	font-size: 120%;
+}
+
+.text-center a {
+	width:20%;
+	margin-top: 20px;
+}
+
+.content{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+form{
+	width: 50%;
+	margin: 0 auto;
+}
+
+button.middle{
+	margin: 0 auto !important;
+}
+
+highlight{
+	background-color: #79ABEC;
+}
+
+wordlist{
+	margin: 20px auto;
+	text-align: center;
+	font-size: 110%;
+	background-color:rgba(255,255,255,0.8);
+	font-weight: bolder;
+}
+
+wordlist p{
+	padding: 0 5%;
+	margin: 0 auto;
+}
+
+wordlist span.strike{
+	text-decoration: line-through;
+}
+
+table{
+	margin: 0 auto;
+	-webkit-box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.36);
+	-moz-box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.36);
+	box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.36);
+}
+
+body { 
+  background: url("static/css/bg.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+tr {
+	width: auto;
+}
+
+td{
+	height:27px !important;
+	width: 27px !important;
+	padding: 2px !important;
+	text-align: center;
+	vertical-align: center;
+	background-color:rgba(255,255,255,0.85);
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto; 
+    width: 100%;
+	padding: 2% 0;
+	background-color:rgba(255,255,255,0.75);

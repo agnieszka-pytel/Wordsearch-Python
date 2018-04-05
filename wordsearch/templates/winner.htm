@@ -1,0 +1,16 @@
+{% extends "main.htm" %}
+{% block body %}
+	<div class="outer">
+		<div class="middle">
+			<div class="inner">
+				<div>
+					<h1>Gratulacje!</h1>
+					<h2>Udało Ci się znaleźć wszystkie słowa!</h2>
+				</div>
+				<div class="text-center">
+					<a href="{{url_for('index')}}" class="btn btn-default">Zagraj jeszcze raz</a>
+				</div>
+			</div>
+		</div>
+	</div>
+{% endblock %}

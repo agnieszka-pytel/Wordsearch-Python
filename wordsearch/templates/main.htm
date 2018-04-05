@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>WYKREŚLANKA</title>
+		<link rel=stylesheet href="{{url_for('static', filename='css/style.css')}}">
+		<link rel=stylesheet href="{{url_for('static', filename='normalize_css.css')}}">
+		<link rel=stylesheet href="{{url_for('static', filename='css/bootstrap.css')}}">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<style>
+			body { 
+				background-image: url('{{url_for('static', filename='jpg/bg.jpg')}}');
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-position: center; 
+				background-style: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="content">
+			{% block body %}
+			{% endblock %}
+		</div>
+		<!--
+		<footer>
+			<nav class="navbar navbar-default navbar-fixed-bottom">
+				<div class="container">
+					<div class="text-center">
+						<p>Copyright (c) 2017 Agnieszka Pytel</p>
+					</div>
+				</div>
+			</nav>
+		</footer>
+		-->
+	</body>
+</html>
